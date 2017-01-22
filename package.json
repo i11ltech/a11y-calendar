@@ -1,0 +1,47 @@
+{
+  "name": "ReactCalendarWidget",
+  "version": "1.0.0",
+  "description": "A calendar widget with list/month view",
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babelify": "^6.0.2",
+    "browser-sync": "^2.7.1",
+    "browserify": "^10.1.3",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-add-src": "^0.2.0",
+    "gulp-autoprefixer": "^2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-replace": "^1.4.5",
+    "gulp-if": "^1.2.5",
+    "gulp-jscs": "^1.6.0",
+    "gulp-jshint": "^1.10.0",
+    "gulp-less": "^3.0.3",
+    "gulp-minify-css": "^1.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.4",
+    "jasmine-core": "^2.3.4",
+    "jquery": "^3.1.1",
+    "karma": "^0.12.31",
+    "karma-browserify": "^4.1.2",
+    "karma-chrome-launcher": "^0.1.12",
+    "karma-jasmine": "^0.3.5",
+    "karma-source-map-support": "^1.2.0",
+    "moment": "^2.17.1",
+    "run-sequence": "^1.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "react": "^0.13.3"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp build",
+    "watch": "gulp watch"
+  }
+}

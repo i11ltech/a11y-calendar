@@ -1,0 +1,64 @@
+.weekTablesContainer{
+
+    .monthsWeek{
+        width: 100%;
+        font-size: .990rem;
+        margin: 0 auto 24px;
+        table-layout: fixed;
+        border-spacing: 0;
+        background: #fff;
+        margin-bottom: 1.25rem;
+        border: 1px solid #ddd;    
+
+        tr:nth-child(even) {background: #E6E6FA}
+        tr:nth-child(odd) {background: #F9F9FE}
+
+        .cellPad{
+            color: #000;
+            padding-left: 13px;
+            white-space: nowrap;    
+            padding: 10px;
+            font-size: 1.10rem;
+        }
+
+        .cellDate{
+            width: 12%;
+        }
+
+        .cellTime{
+            width: 18%;
+        }
+
+        .cellTitle{
+            width: 70%;
+        }
+
+        .titleSpan{
+            color: #057EE0;
+            cursor: pointer;
+        }       
+    }
+
+    .weekHeader{
+        font-weight: 700;
+        color: #000;
+        padding: 13px;
+        white-space: nowrap;    
+        line-height: 24px;
+        font-size: .999rem;
+        text-align: left;
+        color: #808285;
+        text-transform: uppercase;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .multiAssignmentsRow{
+        border-top: 1px solid #ddd;
+    }
+    
+    .assignmentRow{
+        line-height: 22px;
+    }
+
+}
+

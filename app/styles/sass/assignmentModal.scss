@@ -1,0 +1,66 @@
+.calendarModalContainer {
+    .modelContent {
+        border-width: 1px;
+        border-style: solid;
+        max-width: 280px;
+        min-width: 50px;
+        font-size: 10.5px;
+        line-height: 12px;
+        background-color: #fff;
+        border-color: #666;
+        width: 300px;
+        padding: 10px;
+        box-shadow: 0 2px 8px -3px rgba(0, 0, 0, .3);
+        .itemTitle {
+            padding: 8px;
+            font-size: 110%;
+            font-weight: 700;
+        }
+        .itemPoints, .itemDate, .modalLinks {
+            padding: 8px;
+        }
+    }
+    .absolutewrapper {
+        display: none;
+        position: absolute;
+        max-height: 100px;
+        top: 0;
+    }
+    .absolutewrapper.active {
+        display: block;
+        .arrow-right-modal, .arrow-left-modal {
+            width: 12px;
+            height: 25px;
+            overflow: hidden;
+            position: absolute;
+            bottom: -48px;            
+        }
+        .arrow-right-modal{
+            left: -11px;
+        }
+        .arrow-left-modal {
+            left: 279px;
+        }
+        .arrow-right-modal:after, .arrow-left-modal:after {
+            content: "";
+            position: absolute;
+            background: white;
+            border-width: 1px;
+            border-style: solid;
+            box-shadow: 0 2px 8px -3px rgba(0, 0, 0, 0.3);
+            width: 15px;
+            height: 15px;
+            -webkit-transform: rotate(45deg);
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -o-transform: rotate(45deg);
+            top: 5px;
+        }
+        .arrow-right-modal:after{
+            left: 5px;
+        }
+        .arrow-left-modal:after {
+            left: -7px;
+        }
+    }
+}

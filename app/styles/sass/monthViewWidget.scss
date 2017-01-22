@@ -1,0 +1,119 @@
+.calWidget {
+    box-sizing: border-box;
+    outline: 0;
+    background-clip: border-box;
+    background-color: white;
+    .navigationBar {
+        padding: 10px;
+        .calendarNavigateBack, .calendarNavigateNext {
+            display: inline-block;
+            width: 4%;
+            height: 37px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            color: #444;
+            text-shadow: 0 1px 1px #fff;
+            padding: 1%;
+            padding-left: 2%;
+            padding-right: 3%;            
+            font-size: 12px;
+            font-weight: 700;
+            text-indent: 0;
+            float: none;
+            cursor: pointer;
+        }
+        .calendarNavigateBack {
+            border-bottom-left-radius: .6em;
+            border-top-left-radius: .6em;
+        }
+        .calendarNavigateBack:before {
+            content: "\25BC";
+        }
+        .calendarNavigateNext {
+            border-bottom-right-radius: .6em;
+            border-top-right-radius: .6em;
+        }
+        .calendarNavigateNext:before {
+            content: "\25B2";            
+        }
+        .currentSelection {
+            display: inline-block;
+            padding-left: 8px;
+            width: 12%;
+        }
+        #todayLink {
+            display: inline-block;
+            text-decoration: none;
+            color: #057EE0;
+            font-size: .813em;
+            cursor: pointer;
+        }
+    }
+    .monthCalendarGrid {
+        outline: none;
+        table-layout: fixed;
+        width: 100%;
+        th .cellContent {
+            text-align: center;
+            padding: 0 1px;
+        }
+        td .cellContent {
+            min-height: 80px;
+        }
+        .todayCell {
+            background-color: #ffc;
+        }
+        .cellContent {
+            color: #333;
+            line-height: 2.286em;
+            display: inline-block;
+            margin: 0;
+            text-align: right;
+            vertical-align: middle;
+            background: none;
+            background-image: none;
+            padding: 0;
+            width: 100%;
+        }
+        .weekRow {
+            width: 100%;
+            border: 1px solid #dddfe3;
+        }
+        .weekCell {
+            border-left: 1px solid #dddfe3;
+            position: relative;
+            min-width: 14.2857%;
+            width: 14.2857%;
+        }
+        .rwCellDay {
+            position: absolute;
+            top: 2px;
+            right: 20px;
+            padding: 4px;
+            border-radius: 50%;
+            float: right;
+            height: 29px;
+        }
+        .calAssignments,
+        .assignmentsCell {
+            font-size: 12px;
+            border-radius: 0px;
+            padding: 5px;
+            margin: 4px;
+            line-height: 14px;
+            background: #cfffb6;
+            border: 1px solid #72ce36;
+            cursor: pointer;
+        }
+        .assignmentsCell {
+            clear: both;
+            border-radius: 2px;
+            padding: 1px;
+            margin: 40px 3px 3px 3px;
+        }
+    }
+}
+
+.chooseRadio {
+    padding: 10px;
+}
