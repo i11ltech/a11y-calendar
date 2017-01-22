@@ -2,9 +2,9 @@ React months/weeks-list view calendar
 =====================================
 A calendar with month view and list view built in React. A JSON object of events can be given as props to the month-view-widget & list-view-widget.
 
- #### TODO: Add accessibility.
+#### TODO: Add accessibility.
 
- #### DEMO: [__Demo_Link__](https://a11y-calendar.herokuapp.com/)
+#### DEMO: [__Demo_Link__](https://a11y-calendar.herokuapp.com/)
  
 Month view:
   - Displays the month in a grid style.
@@ -19,7 +19,7 @@ Weeks-List view:
   - Only the days which has events will be listed.
   - Click on an event to display the details in a popup
 
-## Run examples locally
+## Run app locally
 * Clone this repository
 * Retrieve dependencies: `npm install`
 * Build: `gulp build` 
